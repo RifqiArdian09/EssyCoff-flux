@@ -3,7 +3,6 @@
 ### 1. Clone project
 ```bash
 https://github.com/RifqiArdian09/E-voting.git
-cd E-voting
 ```
 ### 2. Copy file .env.example
 ```bash
