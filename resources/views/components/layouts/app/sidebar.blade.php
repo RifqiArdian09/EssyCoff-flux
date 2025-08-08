@@ -36,6 +36,16 @@
                         wire:navigate>
                         {{ __('Management Produk') }}
                     </flux:navlist.item>
+
+                    <!-- Menu POS -->
+                    <flux:navlist.item 
+                        icon="shopping-cart" 
+                        :href="route('pos.index')" 
+                        :current="request()->routeIs('pos.*')" 
+                        wire:navigate>
+                        {{ __('Point of Sale') }}
+                    </flux:navlist.item>
+
                 </flux:navlist.group>
             </flux:navlist>
 

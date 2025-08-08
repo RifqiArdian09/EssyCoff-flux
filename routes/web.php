@@ -32,4 +32,10 @@ Route::get('/products', ProductsIndex::class)->name('products.index')->middlewar
 Route::get('/products/create', ProductsCreate::class)->name('products.create')->middleware('auth');
 Route::get('/products/{product}/edit', ProductsEdit::class)->name('products.edit')->middleware('auth');
 
+// routes/web.php
+Route::get('/pos', \App\Livewire\PosSystem::class)
+    ->middleware(['auth'])
+    ->name('pos.index');
+
+
 require __DIR__.'/auth.php';
