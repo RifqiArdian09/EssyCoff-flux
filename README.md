@@ -2,7 +2,7 @@
 
 ### 1. Clone project
 ```bash
-https://github.com/RifqiArdian09/E-voting.git
+git clone https://github.com/RifqiArdian09/EssyCoff-flux.git
 ```
 ### 2. Copy file .env.example
 ```bash
